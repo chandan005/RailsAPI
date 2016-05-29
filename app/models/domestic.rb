@@ -1,0 +1,2 @@
+class Domestic < ApplicationRecord
+end

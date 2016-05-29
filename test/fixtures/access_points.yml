@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ssid: MyString
+  bssid: MyString
+  mac_address: MyString
+  nearby_point: MyString
+
+two:
+  ssid: MyString
+  bssid: MyString
+  mac_address: MyString
+  nearby_point: MyString

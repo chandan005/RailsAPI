@@ -1,0 +1,2 @@
+class AccessPoint < ApplicationRecord
+end
