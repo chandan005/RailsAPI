@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+
   resources :access_points
   resources :taxis
 
