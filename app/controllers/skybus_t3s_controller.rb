@@ -35,7 +35,7 @@ class SkybusT3sController < ApplicationController
 
 # Query time greater than now
   def timeQueries
-    t = Time.now.localtime
+    t = TTime.zone.now
     greaterTimes = Array.new
     times = SkybusT3.all
 
