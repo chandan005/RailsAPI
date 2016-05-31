@@ -35,19 +35,19 @@ class SkybusT3sController < ApplicationController
 
 # Query time greater than now
   def timeQueries
-    t = TTime.zone.now
+    t = Time.zone.now
     greaterTimes = Array.new
     times = SkybusT3.all
 
-    times.each do |l|
-      if l.timetable.to_time > t
-        greaterTimes.push(l)
+    times.each do |r|
+      if r.timetable.to_time > t
+        greaterTimes.push(r)
       end
     end
 
     if greaterTimes.count < 10
-      times.each do |m|
-        greaterTimes.push(m)
+      times.each do |n|
+        greaterTimes.push(n)
       end
     end
 
